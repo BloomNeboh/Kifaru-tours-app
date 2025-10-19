@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import api from '../axiosClient';
+import api from '../api/axiosClient';
 
 const ItinerariesList = () => {
   const [itineraries, setItineraries] = useState([]);
@@ -9,7 +9,7 @@ const ItinerariesList = () => {
   useEffect(() => {
     const fetchItineraries = async () => {
       try {
-        const res = await api.get('/itineraries'); // calls backend
+        const res = await api.get('/itineraries');
         setItineraries(res.data);
       } catch (err) {
         console.error(err);
