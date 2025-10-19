@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('./config/envCheck');
 console.log('Loaded MONGO_URI:', process.env.MONGO_URI);
 require('./config/envCheck');
 const express = require('express');
