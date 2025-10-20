@@ -4,7 +4,7 @@ exports.getFounderInfo = (req, res) => {
     title: 'Founder & Tourism Marketing Manager',
     location: 'Arusha, Tanzania',
     bio: 'From Maji ya Chai to the world I build travel experiences that honor Africa’s rhythm and beauty.',
-    certifications: ['Certificate in Tourism & Hospitality', 'Marketing & Brand Development', 'Web Development Full Stack'],
+    certifications: ['Bachelor Degree in Tourism Management', 'Marketing & Brand Development', 'Web Development Full Stack'],
     timeline: [
       { year: 2018, event: 'Hospitality foundations' },
       { year: 2021, event: 'Started as Receptionist @ Planet Lodge' },
